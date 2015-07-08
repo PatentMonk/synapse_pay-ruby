@@ -63,12 +63,12 @@ require 'synapse_pay/endpoints/withdrawal_endpoint'
 require 'synapse_pay/client'
 
 module SynapsePay
-  @api_base = "https://synapsepay.com/api/v2"
-  @api_staging = "https://sandbox.synapsepay.com/api/v2"
-  @api_version = "v2"
+  @api_base = "https://synapsepay.com/api/v3"
+  @api_staging = "https://sandbox.synapsepay.com/api/v3"
+  @api_version = "v3"
   @support_email = "hello@synapsepay.com"
-  @docs_url = "http://api.synapsepay.com/v2.0"
-  @api_sandbox = "https://sandbox.synapsepay.com/api/v2"
+  @docs_url = "http://api.synapsepay.com/v3"
+  @api_sandbox = "https://sandbox.synapsepay.com/api/v3"
 
   class << self
     attr_accessor :api_base, :api_version
